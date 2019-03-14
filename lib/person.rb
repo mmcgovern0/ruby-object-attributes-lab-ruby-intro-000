@@ -17,5 +17,4 @@ class Person
 end
 
 beyonce = Person.new("Beyonce")
-beyonce.instance_variable_set(:@job, "Singer")
-beyonce.instance_variable_get(:@job)
+beyonce.job = "Singer"
