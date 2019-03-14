@@ -15,6 +15,3 @@ class Person
     @job = job
   end
 end
-
-beyonce = Person.new("Beyonce")
-beyonce.job = "Singer"
